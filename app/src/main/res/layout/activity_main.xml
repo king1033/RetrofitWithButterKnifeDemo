@@ -9,8 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.king1033.retrofitwithbutterknifedemo.MainActivity">
 
-    <TextView
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="click"
+    />
+    <ExpandableListView
+        android:id="@+id/gift_openserver_list"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
